@@ -470,7 +470,7 @@ public final class McVersionLookup {
 	/**
 	 * Convert an arbitrary MC version into semver-like release-preRelease form.
 	 *
-	 * <p>MC Snapshot -> alpha, MC Pre-Release -> rc.
+	 * <p>MC Snapshot -&gt; alpha, MC Pre-Release -&gt; rc.
 	 */
 	@VisibleForTesting
 	public static String normalizeVersion(String name, String release) {

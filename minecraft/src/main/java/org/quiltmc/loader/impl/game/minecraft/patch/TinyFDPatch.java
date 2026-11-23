@@ -36,7 +36,7 @@ import net.fabricmc.api.EnvType;
 /**
  * Patch the TinyFileDialogs.tinyfd_openFileDialog call to use a trusted string in MoreOptionsDialog.
  *
- * <p>This patch applies to Minecraft versions 20w21a -> 23w04a inclusive
+ * <p>This patch applies to Minecraft versions 20w21a -&gt; 23w04a inclusive
  */
 public final class TinyFDPatch extends GamePatch {
 	private static final String MORE_OPTIONS_DIALOG_CLASS_NAME = "net.minecraft.class_5292";
