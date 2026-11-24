@@ -37,7 +37,7 @@ import java.lang.annotation.Target;
  * When applied to an implemented interface (via {@link ElementType#TYPE_USE}) it will be removed when running without the specified mods.
  * Overridden interface methods need to be annotated separately in order to be removed.
  *
- * @apiNote Even is this annotation is provided by Quilt Loader, some usages of it are not recommended. In example, when
+ * Note: Even is this annotation is provided by Quilt Loader, some usages of it are not recommended. In example, when
  * you are using code from other mods thanks to their APIs using entrypoints, you should not implement their entrypoint
  * interface on the same classes that you are using for vanilla entrypoints. Instead, you should use a separate class in
  * a separated package, dedicated to the mod integration that you are making. And to continue this example by a great usage
